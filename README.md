@@ -20,20 +20,13 @@
 
   ```
  
-## ♦️INSTALLATION SCRIPT ( SSH 80 VLESS 8080 )♦️
+## ♦️INSTALLATION SCRIPT ( SSH 80 VLESS 80 )♦️
 
   ```html
   apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/basikal123/ssh/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 
   ```
   
-## ♦️INSTALLATION SCRIPT ( SSH 80 )♦️
-
-  ```html
-  apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/basikal123/ssh/main/setup1.sh && chmod +x setup1.sh && screen -S setup1 ./setup1.sh
-
-  ```  
- 
 ## Description :
 
   Service & Port
@@ -71,4 +64,3 @@
   <a><img src="https://img.shields.io/badge/Copyright%20©-MATKILAU%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
-   
